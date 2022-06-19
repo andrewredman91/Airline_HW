@@ -32,4 +32,12 @@ public class Flight {
             bookedPassengers.add(passenger);
         }
     }
+
+    public Plane getPlane(){
+        return plane;
+    }
+
+    public ArrayList<Passenger> getBookedPassengers(){
+        return bookedPassengers;
+    }
 }
